@@ -1,0 +1,4 @@
+C:/Tools/Coverity/cov-analysis-win64-2024.6.1/bin/cov-security-da.exe --dir C:/Users/Emre/Desktop/Example_Project/cov-int 
+cov-security-da version 2024.6.1 on Windows 10 Professional, 64-bit (build 19045)
+Internal version numbers: d59b675bea p-2024.6-push-53
+

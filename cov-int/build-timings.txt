@@ -1,0 +1,31 @@
+# Version: d59b675bea p-2024.6-push-53
+# Command Line: C:\Tools\Coverity\cov-analysis-win64-2024.6.1\bin\cov-build.exe --dir cov-int python example_project.py
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                              1891          1
+  create_or_open emit DB                  0          1
+    open emit DB                          0          1
+  add_string_to_table                     0          7
+  addEmitFileName                         0          1
+  addEnvironmentVars                      0          1
+    add_string_to_table                   0         65
+  Prepare capture                         0          1
+  Running build command                 516          1
+  generate_generic_compiler_map         328          1
+    handle_derived_compiler               0         16
+  SecurityDA                            422          1
+  (left over)                           625
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                              1891          1
+create_or_open emit DB                    0          1
+open emit DB                              0          1
+add_string_to_table                       0         72
+addEmitFileName                           0          1
+addEnvironmentVars                        0          1
+Prepare capture                           0          1
+Running build command                   516          1
+generate_generic_compiler_map           328          1
+handle_derived_compiler                   0         16
+SecurityDA                              422          1
