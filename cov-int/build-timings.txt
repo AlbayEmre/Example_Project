@@ -1,31 +1,35 @@
 # Version: d59b675bea p-2024.6-push-53
-# Command Line: C:\Tools\Coverity\cov-analysis-win64-2024.6.1\bin\cov-build.exe --dir cov-int python example_project.py
+# Command Line: C:\Tools\coverity\cov-analysis-win64-2024.6.1\bin\cov-build.exe --dir cov-int gcc -c dummy_c.c
 timer                                    ms      calls
 ------------------------------------------------------
-cov-build                              1891          1
+cov-build                             43985          1
   create_or_open emit DB                  0          1
     open emit DB                          0          1
-  add_string_to_table                     0          7
+  add_string_to_table                    15          8
   addEmitFileName                         0          1
   addEnvironmentVars                      0          1
-    add_string_to_table                   0         65
+    add_string_to_table                   0         68
   Prepare capture                         0          1
-  Running build command                 516          1
-  generate_generic_compiler_map         328          1
-    handle_derived_compiler               0         16
-  SecurityDA                            422          1
-  (left over)                           625
+  Running build command               42344          1
+  parse_xml_config_file                  31          1
+  generate_generic_compiler_map         656          1
+    handle_derived_compiler              15         16
+  SecurityDA                            188          1
+  TUInfo::getPrimarySFRow                 0          1
+  (left over)                           751
 
 activity                                 ms      calls
 ------------------------------------------------------
-cov-build                              1891          1
+cov-build                             43985          1
+parse_xml_config_file                    31          1
 create_or_open emit DB                    0          1
 open emit DB                              0          1
-add_string_to_table                       0         72
+add_string_to_table                      15         76
 addEmitFileName                           0          1
 addEnvironmentVars                        0          1
 Prepare capture                           0          1
-Running build command                   516          1
-generate_generic_compiler_map           328          1
-handle_derived_compiler                   0         16
-SecurityDA                              422          1
+Running build command                 42344          1
+generate_generic_compiler_map           656          1
+handle_derived_compiler                  15         16
+SecurityDA                              188          1
+TUInfo::getPrimarySFRow                   0          1

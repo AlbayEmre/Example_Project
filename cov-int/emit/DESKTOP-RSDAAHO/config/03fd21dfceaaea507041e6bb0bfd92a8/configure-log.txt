@@ -1,0 +1,10 @@
+Native Compiler invocation: c:/mingw64/bin/gcc.exe -c dummy_c.c
+Working directory: C:\Users\Emre\Desktop\Example_Project
+Comptype: gcc
+* Configuring c:\mingw64\bin\gcc as a C compiler
+* Configuring c:\mingw64\bin\gcc as a C++ compiler
+* Configuring c:\mingw64\bin\gcc as a C compiler
+* Configuring c:\mingw64\bin\g++ as a C++ compiler
+* Configuring c:\mingw64\bin\g++ as a C compiler
+* Configuring c:\mingw64\bin\ld as a C++ linker
+* Configuring c:\mingw64\bin\ar as a C++ linker

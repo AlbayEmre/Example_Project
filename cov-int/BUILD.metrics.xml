@@ -5,11 +5,11 @@
 <metrics>
     <metric>
         <name>time</name>
-        <value>2</value>
+        <value>44</value>
     </metric>
     <metric>
         <name>args</name>
-        <value>C:\Tools\Coverity\cov-analysis-win64-2024.6.1\bin\cov-build.exe --dir cov-int python example_project.py</value>
+        <value>C:\Tools\coverity\cov-analysis-win64-2024.6.1\bin\cov-build.exe --dir cov-int gcc -c dummy_c.c</value>
     </metric>
     <metric>
         <name>host</name>
@@ -37,7 +37,7 @@
     </metric>
     <metric>
         <name>config</name>
-        <value>C:\Tools\Coverity\cov-analysis-win64-2024.6.1\config\coverity_config.xml</value>
+        <value>C:\Tools\coverity\cov-analysis-win64-2024.6.1\config\coverity_config.xml</value>
     </metric>
     <metric>
         <name>intermediatedir</name>
@@ -65,7 +65,7 @@
     </metric>
     <metric>
         <name>successes</name>
-        <value>0</value>
+        <value>1</value>
     </metric>
     <metric>
         <name>recoverable-errors</name>
@@ -85,11 +85,11 @@
     </metric>
     <metric>
         <name>security-da-ms</name>
-        <value>438</value>
+        <value>188</value>
     </metric>
     <metric>
         <name>buildcmd</name>
-        <value>python.exe example_project.py</value>
+        <value>gcc.exe -c dummy_c.c</value>
     </metric>
 </metrics>
 </coverity>

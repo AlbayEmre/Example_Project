@@ -1,9 +1,9 @@
 # Version: d59b675bea p-2024.6-push-53
-# Command Line: C:/Tools/Coverity/cov-analysis-win64-2024.6.1/bin/cov-security-da.exe --dir C:/Users/Emre/Desktop/Example_Project/cov-int
+# Command Line: C:/Tools/coverity/cov-analysis-win64-2024.6.1/bin/cov-security-da.exe --dir C:/Users/Emre/Desktop/Example_Project/cov-int
 timer                         ms      calls
 -------------------------------------------
-cov_security_da::run           0          1
+cov_security_da::run          15          1
 
 activity                      ms      calls
 -------------------------------------------
-cov_security_da::run           0          1
+cov_security_da::run          15          1
